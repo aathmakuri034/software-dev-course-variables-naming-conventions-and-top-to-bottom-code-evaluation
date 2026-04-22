@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice"; // change from a to name
+let num_items = 5; // change the variable to number of items from b
+let cost = 20; // amount of money
+let adj = "fuzzy"; // first additional variable
+let currency = "$" // second additioanl variable
+let sentence = name + " bought " + num_items + " items for " + currency + cost + ".";
 
-console.log(d);
+console.log(sentence);
